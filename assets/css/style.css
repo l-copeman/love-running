@@ -1,5 +1,5 @@
 /* Google fonts import */
-@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Oswald:wght@200..700&display=swap')
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Oswald:wght@200;300;400;500;600;700&display=swap');
 
 /* Asterisk wildcare selector to overide default styles added by the browser */
 * {
@@ -15,7 +15,7 @@ body {
     flex-direction: column;
     /* Generic project styles */
     color: #3a3a3a;
-    font-family: 'lato', sans-serif;
+    font-family: 'Lato', sans-serif;
 }
 
 /* Header */
@@ -37,7 +37,7 @@ header a {
 }
 
 h1 {
-    font-family: 'oswald', sans-serif;
+    font-family: 'Oswald', sans-serif;
     text-transform: uppercase;
     letter-spacing: 2px;
     color: #252525;
@@ -54,7 +54,7 @@ h1 {
 }
 
 .active {
-    border-bottom: solid #3a3a3a;
+    border-bottom: 1px solid #3a3a3a;
 }
 
 /* Navbar styles with dropdown menu */
@@ -79,7 +79,7 @@ nav {
 }
 
 .nav-toggle-label {
-    font-size: 2rem
+    font-size: 2rem;
 }
 
 /* Main Content */
@@ -87,6 +87,7 @@ main {
     background-color: lightblue;
     /* make main element take up surplus space, pushing footer down */
     flex: 1 0 auto;
+    margin-top: 47px;
 }
 
 /* Footer */
